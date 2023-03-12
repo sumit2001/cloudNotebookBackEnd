@@ -1,4 +1,4 @@
-bashCopy code
+# bashCopy code
 # Use the official Node.js image as the base image
 FROM node:16
 
@@ -12,4 +12,4 @@ COPY . /
 RUN npm install
 
 # Define the entry point for the container
-CMD ["npm", "index.js"]
+CMD ["node", "index.js"]
